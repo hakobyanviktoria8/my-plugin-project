@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_s",
+  "info": {
+    "name": "article "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "published_date": {
+      "type": "date"
+    },
+    "article_category": {
+      "via": "articles",
+      "model": "article-category"
+    }
+  }
+}
