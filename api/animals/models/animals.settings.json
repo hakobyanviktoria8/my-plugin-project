@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "animals",
+  "info": {
+    "name": "Animals"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article_name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
